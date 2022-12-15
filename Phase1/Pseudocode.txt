@@ -1,0 +1,20 @@
+request = boolen(t or f)
+if request is true: 
+	get hook id
+	issue key 
+	get employee id 
+else:
+	end
+
+dict = {hook_id: key_id}
+requested_key = requested_key_id 
+if loan status is true and (return or loss is false):
+	first_key = dict.get(hook_id of first key)
+	if first_key and requested_key are the same: 
+		request denied 
+	else: 
+		request granted 
+if loan status is true and (return and loss key):
+	request granted 
+else:
+	request denied 

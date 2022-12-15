@@ -1,0 +1,367 @@
+/usr/bin/python3 /Users/vinhhuynh/Documents/CSULB/CECS 323/Phase3/main.py 
+
+MENU
+0. Populate the database
+1. Create a Key
+2. Request access to a given room by a given employee
+3. Capture the issue of a key to an employee
+4. Capture losing a key
+5. Report out all the rooms that an employee can enter, given the keys that he/she already has
+6. Delete a key
+7. Delete an employee
+8. Add a new door that can be opened by an existing hook
+9. Update an access request to move it to a new employee
+10. Report out all the employees who can get into a room
+Your choice: 0
+
+MENU
+0. Populate the database
+1. Create a Key
+2. Request access to a given room by a given employee
+3. Capture the issue of a key to an employee
+4. Capture losing a key
+5. Report out all the rooms that an employee can enter, given the keys that he/she already has
+6. Delete a key
+7. Delete an employee
+8. Add a new door that can be opened by an existing hook
+9. Update an access request to move it to a new employee
+10. Report out all the employees who can get into a room
+Your choice: 1
+
+Create a key
+Available hooks
+hook: 1
+hook: 2
+hook: 3
+hook: 4
+Please enter hook id: 1
+New key ID created: 6394368e331e7a225873ad84
+
+MENU
+0. Populate the database
+1. Create a Key
+2. Request access to a given room by a given employee
+3. Capture the issue of a key to an employee
+4. Capture losing a key
+5. Report out all the rooms that an employee can enter, given the keys that he/she already has
+6. Delete a key
+7. Delete an employee
+8. Add a new door that can be opened by an existing hook
+9. Update an access request to move it to a new employee
+10. Report out all the employees who can get into a room
+Your choice: 2
+
+REQUEST A KEY
+
+Available buildings: 
+	VEC
+	ECS
+	HC
+Enter building name: VEC
+	VEC
+Available rooms
+		100
+		101
+Enter room number: 100
+Available employees:
+	David Brown
+	Steven Gold
+	Kite Nyguyen
+Enter employee name: David Brown
+
+✅ ACCESS GRANTED
+VEC 100, front door
+Key ID: 6394368e331e7a225873ad84
+Employee: David Brown
+
+MENU
+0. Populate the database
+1. Create a Key
+2. Request access to a given room by a given employee
+3. Capture the issue of a key to an employee
+4. Capture losing a key
+5. Report out all the rooms that an employee can enter, given the keys that he/she already has
+6. Delete a key
+7. Delete an employee
+8. Add a new door that can be opened by an existing hook
+9. Update an access request to move it to a new employee
+10. Report out all the employees who can get into a room
+Your choice: 3
+
+Unauthorized action! Please make a request first
+Redirecting to make a request...
+
+REQUEST A KEY
+
+Available buildings: 
+	VEC
+	ECS
+	HC
+Enter building name: VEC
+	VEC
+Available rooms
+		100
+		101
+Enter room number: 100
+Available employees:
+	David Brown
+	Steven Gold
+	Kite Nyguyen
+Enter employee name: Steven Gold
+
+✅ ACCESS GRANTED
+VEC 100, front door
+Key ID: 639436b0331e7a225873ad88
+Employee: Steven Gold
+
+MENU
+0. Populate the database
+1. Create a Key
+2. Request access to a given room by a given employee
+3. Capture the issue of a key to an employee
+4. Capture losing a key
+5. Report out all the rooms that an employee can enter, given the keys that he/she already has
+6. Delete a key
+7. Delete an employee
+8. Add a new door that can be opened by an existing hook
+9. Update an access request to move it to a new employee
+10. Report out all the employees who can get into a room
+Your choice: 2
+
+REQUEST A KEY
+
+Available buildings: 
+	VEC
+	ECS
+	HC
+Enter building name: ECS
+	ECS
+Available rooms
+		200
+		201
+Enter room number: 200
+Available employees:
+	David Brown
+	Steven Gold
+	Kite Nyguyen
+Enter employee name: David Brown
+
+✅ ACCESS GRANTED
+ECS 200, front door
+Key ID: 639436c2331e7a225873ad8b
+Employee: David Brown
+
+MENU
+0. Populate the database
+1. Create a Key
+2. Request access to a given room by a given employee
+3. Capture the issue of a key to an employee
+4. Capture losing a key
+5. Report out all the rooms that an employee can enter, given the keys that he/she already has
+6. Delete a key
+7. Delete an employee
+8. Add a new door that can be opened by an existing hook
+9. Update an access request to move it to a new employee
+10. Report out all the employees who can get into a room
+Your choice: 5
+
+REPORT ACCESSIBLE ROOMS
+Available employees:
+	David Brown
+	Steven Gold
+	Kite Nyguyen
+Enter employee name: David BROWN
+Employee not in database
+
+MENU
+0. Populate the database
+1. Create a Key
+2. Request access to a given room by a given employee
+3. Capture the issue of a key to an employee
+4. Capture losing a key
+5. Report out all the rooms that an employee can enter, given the keys that he/she already has
+6. Delete a key
+7. Delete an employee
+8. Add a new door that can be opened by an existing hook
+9. Update an access request to move it to a new employee
+10. Report out all the employees who can get into a room
+Your choice: 5
+
+REPORT ACCESSIBLE ROOMS
+Available employees:
+	David Brown
+	Steven Gold
+	Kite Nyguyen
+Enter employee name: David Brown
+Accessible rooms:
+	VEC 100 front
+	VEC 101 front
+	ECS 200 front
+	ECS 201 front
+
+MENU
+0. Populate the database
+1. Create a Key
+2. Request access to a given room by a given employee
+3. Capture the issue of a key to an employee
+4. Capture losing a key
+5. Report out all the rooms that an employee can enter, given the keys that he/she already has
+6. Delete a key
+7. Delete an employee
+8. Add a new door that can be opened by an existing hook
+9. Update an access request to move it to a new employee
+10. Report out all the employees who can get into a room
+Your choice: 8
+
+Available buildings: 
+	VEC
+	ECS
+	HC
+Enter building name: VEC
+	VEC
+Available rooms
+		100
+		101
+Enter room number: 100
+
+List of possible doors for this room:
+	back
+	south
+	east
+Please enter a door name: back
+Available hook id:1
+Available hook id:2
+Available hook id:3
+Available hook id:4
+Please enter hook ID: 1
+✅New door created!
+	VEC 100 back door
+	Opened by ⚿ HOOK 1
+
+MENU
+0. Populate the database
+1. Create a Key
+2. Request access to a given room by a given employee
+3. Capture the issue of a key to an employee
+4. Capture losing a key
+5. Report out all the rooms that an employee can enter, given the keys that he/she already has
+6. Delete a key
+7. Delete an employee
+8. Add a new door that can be opened by an existing hook
+9. Update an access request to move it to a new employee
+10. Report out all the employees who can get into a room
+Your choice: 10
+
+Available buildings: 
+	VEC
+	ECS
+	HC
+Enter building name: VEC
+	VEC
+Available rooms
+		100
+		101
+Enter room number: 100
+Employees that have access:
+	David Brown
+	Steven Gold
+
+MENU
+0. Populate the database
+1. Create a Key
+2. Request access to a given room by a given employee
+3. Capture the issue of a key to an employee
+4. Capture losing a key
+5. Report out all the rooms that an employee can enter, given the keys that he/she already has
+6. Delete a key
+7. Delete an employee
+8. Add a new door that can be opened by an existing hook
+9. Update an access request to move it to a new employee
+10. Report out all the employees who can get into a room
+Your choice: 9
+Employee ID:  63943685331e7a225873ad81 	Access ID:  6394369b331e7a225873ad85
+Employee ID:  63943685331e7a225873ad82 	Access ID:  639436b0331e7a225873ad87
+Employee ID:  63943685331e7a225873ad81 	Access ID:  639436c1331e7a225873ad8a
+access id you'd like to replace with new user : 6394369b331e7a225873ad85
+All employees:  David Brown 63943685331e7a225873ad81
+All employees:  Steven Gold 63943685331e7a225873ad82
+All employees:  Kite Nyguyen 63943685331e7a225873ad83
+Please enter id of the employee you'd like to add: 63943685331e7a225873ad83
+New employee has replace old employee in access.
+
+MENU
+0. Populate the database
+1. Create a Key
+2. Request access to a given room by a given employee
+3. Capture the issue of a key to an employee
+4. Capture losing a key
+5. Report out all the rooms that an employee can enter, given the keys that he/she already has
+6. Delete a key
+7. Delete an employee
+8. Add a new door that can be opened by an existing hook
+9. Update an access request to move it to a new employee
+10. Report out all the employees who can get into a room
+Your choice: 4
+
+REPORT A LOST KEY
+List of employees, key ids and loan ids: 63943685331e7a225873ad81 6394368e331e7a225873ad84 6394369b331e7a225873ad86
+List of employees, key ids and loan ids: 63943685331e7a225873ad82 639436b0331e7a225873ad88 639436b0331e7a225873ad89
+List of employees, key ids and loan ids: 63943685331e7a225873ad81 639436c2331e7a225873ad8b 639436c2331e7a225873ad8c
+Please enter the loan id that correlates to your employee id and key id: 6394369b331e7a225873ad86
+Lost key reported.
+
+MENU
+0. Populate the database
+1. Create a Key
+2. Request access to a given room by a given employee
+3. Capture the issue of a key to an employee
+4. Capture losing a key
+5. Report out all the rooms that an employee can enter, given the keys that he/she already has
+6. Delete a key
+7. Delete an employee
+8. Add a new door that can be opened by an existing hook
+9. Update an access request to move it to a new employee
+10. Report out all the employees who can get into a room
+Your choice: 6
+Available Keys
+Key ID: 6394368e331e7a225873ad84 
+Key ID: 639436b0331e7a225873ad88 
+Key ID: 639436c2331e7a225873ad8b 
+Enter the key id to delete: 6394368e331e7a225873ad84
+Successfully deleted 2 references to the key.
+Key with id 6394368e331e7a225873ad84 has been deleted.
+
+MENU
+0. Populate the database
+1. Create a Key
+2. Request access to a given room by a given employee
+3. Capture the issue of a key to an employee
+4. Capture losing a key
+5. Report out all the rooms that an employee can enter, given the keys that he/she already has
+6. Delete a key
+7. Delete an employee
+8. Add a new door that can be opened by an existing hook
+9. Update an access request to move it to a new employee
+10. Report out all the employees who can get into a room
+Your choice: 7
+Available Employees IDs
+Name: David Brown, Employee ID: 63943685331e7a225873ad81 
+Name: Steven Gold, Employee ID: 63943685331e7a225873ad82 
+Name: Kite Nyguyen, Employee ID: 63943685331e7a225873ad83 
+Enter the employee ID to delete: 63943685331e7a225873ad81
+Successfully deleted 3 reference(s) to the employee.
+Employee with id 63943685331e7a225873ad81 has been deleted.
+
+MENU
+0. Populate the database
+1. Create a Key
+2. Request access to a given room by a given employee
+3. Capture the issue of a key to an employee
+4. Capture losing a key
+5. Report out all the rooms that an employee can enter, given the keys that he/she already has
+6. Delete a key
+7. Delete an employee
+8. Add a new door that can be opened by an existing hook
+9. Update an access request to move it to a new employee
+10. Report out all the employees who can get into a room
+Your choice: 
